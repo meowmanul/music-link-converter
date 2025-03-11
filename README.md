@@ -56,20 +56,20 @@ docker run -d -p 8000:8000 music-link-converter
 
 ```json
 {   
-	"url": "https://music.yandex.ru/album/12843644/track/73781461?utm_source=desktop&utm_medium=copy_link" 
+"url": "https://music.yandex.ru/album/12843644/track/73781461?utm_source=desktop&utm_medium=copy_link" 
 }
 ```
 #### Пример ответа:
 
 ```json
 {   
-	"source": "https://music.yandex.ru/album/12843644/track/73781461?utm_source=desktop&utm_medium=copy_link",
-	"links": {
-		"spotify": "https://open.spotify.com/track/...",
-		"youtube": "https://www.youtube.com/watch?v=...",
-		"deezer": "https://www.deezer.com/track/...",
-		"tidal": "https://listen.tidal.com/track/...",
-		"pandora": "https://www.pandora.com/..."   
-	} 
+"source": "https://music.yandex.ru/album/12843644/track/73781461?utm_source=desktop&utm_medium=copy_link",
+"links": {
+	"spotify": "https://open.spotify.com/track/...",
+	"youtube": "https://www.youtube.com/watch?v=...",
+	"deezer": "https://www.deezer.com/track/...",
+	"tidal": "https://listen.tidal.com/track/...",
+	"pandora": "https://www.pandora.com/..."   
+ } 
 }
 ```
