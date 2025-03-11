@@ -24,9 +24,9 @@ Windows:
 ```bash
 .venv\Scripts\activate
 ```
-Linux/macOS: source
+Linux/macOS:
 ```bash
-.venv/bin/activate
+source .venv/bin/activate
 ```
 
 3. **Установите зависимости:**
