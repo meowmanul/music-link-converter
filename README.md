@@ -24,7 +24,7 @@ pip install --upgrade pip pip install -r requirements.txt
 
 4. **Запустите приложение:**
 ```bash
-`uvicorn app.main:app --reload`
+uvicorn app.main:app --reload
 ```
 
 Приложение будет доступно по адресу: [http://localhost:8000](http://localhost:8000).
